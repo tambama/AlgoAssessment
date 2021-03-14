@@ -2,5 +2,6 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fecebbae_002D0a6a_002D4836_002Dbc0f_002D8f6b1fa47dac/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="EquivalenceIndexTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::9CC3DDCA-5853-4AFE-9BE2-92EC3317E6FC::.NETCoreApp,Version=v3.1::TGS.Challenge.Tests.EquivalenceIndexTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::9CC3DDCA-5853-4AFE-9BE2-92EC3317E6FC::.NETCoreApp,Version=v3.1::TGS.Challenge.Tests.FormatNumberTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
