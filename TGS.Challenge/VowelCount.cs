@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 
 namespace TGS.Challenge
 {
@@ -16,7 +17,11 @@ namespace TGS.Challenge
     {
         public int Count(string value)
         {
-            return -1;
+            var lowerCaseWord = value.ToLower();
+
+            var vowels = new[] { 'a', 'e', 'i', 'o', 'u' };
+
+            return vowels.Sum(vowel => lowerCaseWord.Count(letter => letter == vowel));
         }
     }
 }

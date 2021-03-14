@@ -3,5 +3,6 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::9CC3DDCA-5853-4AFE-9BE2-92EC3317E6FC::.NETCoreApp,Version=v3.1::TGS.Challenge.Tests.EquivalenceIndexTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::9CC3DDCA-5853-4AFE-9BE2-92EC3317E6FC::.NETCoreApp,Version=v3.1::TGS.Challenge.Tests.FormatNumberTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::9CC3DDCA-5853-4AFE-9BE2-92EC3317E6FC::.NETCoreApp,Version=v3.1::TGS.Challenge.Tests.VowelCountTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
