@@ -17,6 +17,11 @@ namespace TGS.Challenge
     {
         public int Count(string value)
         {
+            if (string.IsNullOrEmpty(value))
+            {
+                throw new ArgumentException("Value is required", "value");
+            }
+
             var lowerCaseWord = value.ToLower();
 
             // Everything below can be simplified to:
