@@ -26,6 +26,12 @@ namespace TGS.Challenge
     {
         public string Format(int value)
         {
+            // Assume: 0 <= n < 1000000000
+            if (value < 0 || value > 1000000000)
+            {
+                throw new ArgumentOutOfRangeException("Value must be >= 0 and < 1000000000", "value");
+            }
+
             // any value with less than 4 digits will not have commas 
             if ((string.Empty + value).Length < 4) return string.Empty + value;
 
