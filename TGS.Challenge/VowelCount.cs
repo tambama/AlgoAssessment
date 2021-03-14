@@ -19,9 +19,27 @@ namespace TGS.Challenge
         {
             var lowerCaseWord = value.ToLower();
 
-            var vowels = new[] { 'a', 'e', 'i', 'o', 'u' };
+            // Everything below can be simplified to:
+            // var vowels = new[] { 'a', 'e', 'i', 'o', 'u' };
+            // return vowels.Sum(vowel => lowerCaseWord.Count(letter => letter == vowel));
 
-            return vowels.Sum(vowel => lowerCaseWord.Count(letter => letter == vowel));
+            var count = 0;
+            // return the sum of the count of all vowels
+            foreach (var letter in lowerCaseWord)
+            {
+                switch (letter)
+                {
+                    case 'a':
+                    case 'e':
+                    case 'i':
+                    case 'o':
+                    case 'u':
+                        count++;
+                        break;
+                }
+            }
+
+            return count;
         }
     }
 }
